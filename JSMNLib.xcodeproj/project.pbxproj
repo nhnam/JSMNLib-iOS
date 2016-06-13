@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D86C37FD1D0ED02D00CDA582 /* JSMNLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D86C37FC1D0ED02D00CDA582 /* JSMNLib.h */; };
+		D86C37FF1D0ED02D00CDA582 /* JSMNLib.m in Sources */ = {isa = PBXBuildFile; fileRef = D86C37FE1D0ED02D00CDA582 /* JSMNLib.m */; };
+		D86C38071D0ED04700CDA582 /* jsmn.c in Sources */ = {isa = PBXBuildFile; fileRef = D86C38051D0ED04700CDA582 /* jsmn.c */; };
+		D86C380B1D0ED26600CDA582 /* JSMNParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D86C38091D0ED26600CDA582 /* JSMNParser.cpp */; };
+		D86C380C1D0ED28000CDA582 /* JSMNParser.hpp in CopyFiles */ = {isa = PBXBuildFile; fileRef = D86C380A1D0ED26600CDA582 /* JSMNParser.hpp */; };
+		D86C3C1E1D0EDC9A00CDA582 /* libcurl_iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D86C3C1D1D0EDC9A00CDA582 /* libcurl_iOS.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D86C37F71D0ED02D00CDA582 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				D86C380C1D0ED28000CDA582 /* JSMNParser.hpp in CopyFiles */,
+				D86C37FD1D0ED02D00CDA582 /* JSMNLib.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D86C37F91D0ED02D00CDA582 /* libJSMNLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJSMNLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D86C37FC1D0ED02D00CDA582 /* JSMNLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSMNLib.h; sourceTree = "<group>"; };
+		D86C37FE1D0ED02D00CDA582 /* JSMNLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSMNLib.m; sourceTree = "<group>"; };
+		D86C38051D0ED04700CDA582 /* jsmn.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = jsmn.c; sourceTree = "<group>"; };
+		D86C38061D0ED04700CDA582 /* jsmn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jsmn.h; sourceTree = "<group>"; };
+		D86C38091D0ED26600CDA582 /* JSMNParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JSMNParser.cpp; sourceTree = "<group>"; };
+		D86C380A1D0ED26600CDA582 /* JSMNParser.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = JSMNParser.hpp; sourceTree = "<group>"; };
+		D86C3C131D0EDC9A00CDA582 /* curl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curl.h; sourceTree = "<group>"; };
+		D86C3C141D0EDC9A00CDA582 /* curlbuild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curlbuild.h; sourceTree = "<group>"; };
+		D86C3C151D0EDC9A00CDA582 /* curlrules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curlrules.h; sourceTree = "<group>"; };
+		D86C3C161D0EDC9A00CDA582 /* curlver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curlver.h; sourceTree = "<group>"; };
+		D86C3C171D0EDC9A00CDA582 /* easy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = easy.h; sourceTree = "<group>"; };
+		D86C3C181D0EDC9A00CDA582 /* mprintf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mprintf.h; sourceTree = "<group>"; };
+		D86C3C191D0EDC9A00CDA582 /* multi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = multi.h; sourceTree = "<group>"; };
+		D86C3C1A1D0EDC9A00CDA582 /* stdcheaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdcheaders.h; sourceTree = "<group>"; };
+		D86C3C1B1D0EDC9A00CDA582 /* typecheck-gcc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "typecheck-gcc.h"; sourceTree = "<group>"; };
+		D86C3C1D1D0EDC9A00CDA582 /* libcurl_iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcurl_iOS.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D86C37F61D0ED02D00CDA582 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D86C3C1E1D0EDC9A00CDA582 /* libcurl_iOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D86C37F01D0ED02D00CDA582 = {
+			isa = PBXGroup;
+			children = (
+				D86C3C101D0EDC9A00CDA582 /* curl */,
+				D86C38091D0ED26600CDA582 /* JSMNParser.cpp */,
+				D86C380A1D0ED26600CDA582 /* JSMNParser.hpp */,
+				D86C38051D0ED04700CDA582 /* jsmn.c */,
+				D86C38061D0ED04700CDA582 /* jsmn.h */,
+				D86C37FB1D0ED02D00CDA582 /* JSMNLib */,
+				D86C37FA1D0ED02D00CDA582 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D86C37FA1D0ED02D00CDA582 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D86C37F91D0ED02D00CDA582 /* libJSMNLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D86C37FB1D0ED02D00CDA582 /* JSMNLib */ = {
+			isa = PBXGroup;
+			children = (
+				D86C37FC1D0ED02D00CDA582 /* JSMNLib.h */,
+				D86C37FE1D0ED02D00CDA582 /* JSMNLib.m */,
+			);
+			path = JSMNLib;
+			sourceTree = "<group>";
+		};
+		D86C3C101D0EDC9A00CDA582 /* curl */ = {
+			isa = PBXGroup;
+			children = (
+				D86C3C111D0EDC9A00CDA582 /* include */,
+				D86C3C1C1D0EDC9A00CDA582 /* lib */,
+			);
+			path = curl;
+			sourceTree = "<group>";
+		};
+		D86C3C111D0EDC9A00CDA582 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				D86C3C121D0EDC9A00CDA582 /* curl */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		D86C3C121D0EDC9A00CDA582 /* curl */ = {
+			isa = PBXGroup;
+			children = (
+				D86C3C131D0EDC9A00CDA582 /* curl.h */,
+				D86C3C141D0EDC9A00CDA582 /* curlbuild.h */,
+				D86C3C151D0EDC9A00CDA582 /* curlrules.h */,
+				D86C3C161D0EDC9A00CDA582 /* curlver.h */,
+				D86C3C171D0EDC9A00CDA582 /* easy.h */,
+				D86C3C181D0EDC9A00CDA582 /* mprintf.h */,
+				D86C3C191D0EDC9A00CDA582 /* multi.h */,
+				D86C3C1A1D0EDC9A00CDA582 /* stdcheaders.h */,
+				D86C3C1B1D0EDC9A00CDA582 /* typecheck-gcc.h */,
+			);
+			path = curl;
+			sourceTree = "<group>";
+		};
+		D86C3C1C1D0EDC9A00CDA582 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				D86C3C1D1D0EDC9A00CDA582 /* libcurl_iOS.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D86C37F81D0ED02D00CDA582 /* JSMNLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D86C38021D0ED02D00CDA582 /* Build configuration list for PBXNativeTarget "JSMNLib" */;
+			buildPhases = (
+				D86C37F51D0ED02D00CDA582 /* Sources */,
+				D86C37F61D0ED02D00CDA582 /* Frameworks */,
+				D86C37F71D0ED02D00CDA582 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSMNLib;
+			productName = JSMNLib;
+			productReference = D86C37F91D0ED02D00CDA582 /* libJSMNLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D86C37F11D0ED02D00CDA582 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Alan Nguyen";
+				TargetAttributes = {
+					D86C37F81D0ED02D00CDA582 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D86C37F41D0ED02D00CDA582 /* Build configuration list for PBXProject "JSMNLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D86C37F01D0ED02D00CDA582;
+			productRefGroup = D86C37FA1D0ED02D00CDA582 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D86C37F81D0ED02D00CDA582 /* JSMNLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D86C37F51D0ED02D00CDA582 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D86C380B1D0ED26600CDA582 /* JSMNParser.cpp in Sources */,
+				D86C37FF1D0ED02D00CDA582 /* JSMNLib.m in Sources */,
+				D86C38071D0ED04700CDA582 /* jsmn.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D86C38001D0ED02D00CDA582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D86C38011D0ED02D00CDA582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D86C38031D0ED02D00CDA582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/curl/include";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/curl/lib",
+				);
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Debug;
+		};
+		D86C38041D0ED02D00CDA582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/curl/include";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/curl/lib",
+				);
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D86C37F41D0ED02D00CDA582 /* Build configuration list for PBXProject "JSMNLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D86C38001D0ED02D00CDA582 /* Debug */,
+				D86C38011D0ED02D00CDA582 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D86C38021D0ED02D00CDA582 /* Build configuration list for PBXNativeTarget "JSMNLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D86C38031D0ED02D00CDA582 /* Debug */,
+				D86C38041D0ED02D00CDA582 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D86C37F11D0ED02D00CDA582 /* Project object */;
+}
